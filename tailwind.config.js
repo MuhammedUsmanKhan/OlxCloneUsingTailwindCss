@@ -18,7 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         'borderimage': "url('/main/images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'PlusImage': "url('/main/images/iconPlusSell_noinline.75fc7ea23e80b50447cf5757d8ef083a.svg')",
       }
     },
   },

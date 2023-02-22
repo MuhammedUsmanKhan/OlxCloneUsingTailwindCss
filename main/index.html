@@ -17,7 +17,7 @@
             <div class="md:hidden ">
                 <img src="./images/menuIcon_noinline.967425c3fbd99621a344ec1021024ffb.svg" alt="Menu">
             </div>
-            <div class="md:mr-9">
+            <div class="md:mr-9 fill-[#3a77ff]">
                 <svg height="20" viewBox="0 0 36.289 20.768" alt="Logo" class="_10c831ef">
                     <path
                         d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
@@ -67,19 +67,23 @@
         </nav>
         <!-- Middle Nav -->
         <nav class="flex flex-col container  mx-auto p-1 border-2 border-yellow-600">
+            <!-- TablogoMob -->
             <span class="inline-flex p-2 font-bold text-sm text-center sm:hidden"><img class="f2e48174 _044ba713"
                     src="./images/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg" alt="Location icon">Scheme
                 33,
                 Karachi</span>
-            <div class=" flex md:justify-between border-2 border-yellow-600">
-                <div class="hidden md:flex  p-2 items-center"><svg height="30" viewBox="0 0 36.289 20.768" alt="Logo"
+                <!-- MainDivContainingAll_Item+OlxLogo -->
+            <div class=" flex md:justify-around border-2 border-yellow-600">
+                <div class="hidden md:flex  p-2 items-center">
+                    <svg height="30" viewBox="0 0 36.289 20.768" alt="Logo"
                         class="b28a1eb6">
                         <path
                             d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
                         </path>
-                    </svg></span></div>
-                <input class="hidden border-2 border-green-600" type="text" name="" id="">
-                <div class="flex w-full md:w-9/12 md:order-2 border-2 border-orange-600">
+                    </svg>
+                </div>
+                <input class="hidden " type="text" name="" id="">
+                <div class="flex w-full md:w-8/12 md:order-2 ">
                     <button class=" md:order-1 p-2 bg-[#002f34] fill-white border-2 border-blue-600">
                         <svg class=" " xmlns="http://www.w3.org/2000/svg" width="25" height="25"
                             viewBox="0 0 1024 1024">
@@ -88,33 +92,48 @@
                             </path>
                         </svg>
                     </button>
-                    <input class=" p-2 border-2 border-green-600 w-full md:w-4/12 " placeholder="All ads in Scheme 33"
+                    <input class=" p-2  w-full md:w-4/12 " placeholder="All ads in Scheme 33"
                         type="search" name="" id="">
-                    <input class=" p-2 border-2 hidden md:inline-block md:ml-5 border-green-600 md:w-7/12 "
+                    <input class=" p-2  hidden md:inline-block md:ml-3  md:w-7/12 "
                         placeholder="Find Cars Mobile Phones and More..." type="search" name="" id="">
                 </div>
-                <div class="order-2 md:flex items-center border-2 hidden  border-green-600">
+                <div class="order-2 md:flex items-center border-2 hidden">
                     <a href="#"
                         class="text-[#002f34] font-semibold decoration-2 decoration-solid underline-offset-2 underline">Login</a>
                 </div>
-                <div
-                    class="order-3 md:relative md:left-0 min-[320px]:fixed min-[320px]:bottom-0 min-[320px]:left-24 border-2 border-green-600">
-                    <button class="flex">
-                        <img src="./images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg" alt="">
+                <div class="md:inline-block md:w-auto order-3 grid grid-cols-1 w-[95%]  place-content-center  fixed bottom-0 md:static ">
+                    <button class=" hidden items-center justify-center h-12 bg-borderimage bg-contain bg-center bg-no-repeat  md:h-full md:w-24">
+                            <span class="text-[#002f34] text-right font-semibold bg-PlusImage bg-no-repeat bg-left w-14 ">&nbspSELL</span>
                     </button>
-                    <div class="flex absolute top-3 left-5 ">
-                        <img src="./images/iconPlusSell_noinline.75fc7ea23e80b50447cf5757d8ef083a.svg" alt="">
-                        <span class="text-[#002f34] font-semibold ">&nbspSELL</span>
-                    </div>
                 </div>
             </div>
         </nav>
+        <nav class="bg-white border-b-2">
         <!-- Final Navbar -->
+        <div class="md:flex hidden container mx-auto md:p-2 border-2 border-green-600">
+        <div class="md:mr-2">
+            <select name="" id="" >
+                <option value="" >ALL CATEGORIES</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="border-2 border-green-600 md:flex md:justify-around md:w-4/6">
+            <span><a href="#">Mobile Phones</a></span>
+            <span><a href="#">Cars</a></span>
+            <span><a href="#">MotorCycles</a></span>
+            <span><a href="#">Houses</a></span>
+            <span><a href="#">TV-Video-Audio</a></span>
+            <span><a href="#">Tablets</a></span>
+            <span><a href="#">Land & Plots</a></span>
+        </div>
+    </div>
     </nav>
     <nav class="hidden">
 
     </nav>
-    <main>
+    <main class="bg-[#ffffff]">
         <!-- sliderimage -->
         <div class="container mx-auto mt-2 md:mb-12">
             <img src="./images/333067086-800x600.jfif" class="md:hidden" alt="404-Not Found">
@@ -228,32 +247,247 @@
             </div>
         </div>
         <!-- Fresh recommendations -->
-        <div class="container mx-auto">
-            <div class=" border-2 border-pink-600 pl-2 mb-2"><span class="text-[#002f34]">Fresh recommendations</span>
+        <div class="container p-2 mx-auto">
+            <div class=" border-2 border-pink-600 pl-2 mb-2">
+                <span class="text-[#002f34]">Fresh recommendations</span>
             </div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="grid grid-cols-2  md:h-72 md:grid-cols-4 bg-[#ffffff] gap-4">
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="border-2 border-[#ccd5d6]">
+                        <div class=" border-2  border-yellow-600 flex justify-center bg-black "><img
+                                src="./images/239185551-240x180.jfif" class=" md:h-36" alt=""></div>
+                        <div class="h-28  p-2 bg-white">
+                            <p class="break-words text-sm mt-1">Jhoola 2.0</p>
+                            <h1 class="font-bold text-lg">Rs 40,000</h1>
+                            <address class="break-words text-xs mt-3">Scheme 33, Karachi 8 minutes ago</address>
+                        </div>
+                    </div>
+                </article>
             </div>
+        </div>
+        <!-- buttonLoadmore -->
+        <div class="container mx-auto mt-2 flex justify-center items-center">
+            <button class="w-24 h-12 font-bold text-[#002f34] border-2 border-[#002f34] rounded-md">Load more</button>
         </div>
     </main>
 </body>
